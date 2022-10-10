@@ -132,7 +132,7 @@ for _ in range(K):
     x, y = dice_pos
 
     # 방향 결정
-    d = rotate_direction(middle, dice_pos[0], dice_pos[1], d)
+    d = rotate_direction(dice[5], dice_pos[0], dice_pos[1], d)
 
     # 점수 구하기
     answer += count_score(dice_pos[0], dice_pos[1], d)
